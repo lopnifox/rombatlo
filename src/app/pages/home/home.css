@@ -1,0 +1,24 @@
+/*
+* File: home.css
+* Author: Nagy Áron
+* Copyright: 2026, Nagy Áron
+* Group: Szoft II/N
+* Date: 2026-10-12
+* Github: https://github.com/lopnifox/
+* Licenc: MIT
+*/
+
+
+h2 {
+  color: #284b8c;
+}
+
+p {
+  font-size: 18px;
+}
+
+.neon-text {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #006eff, 0 0 10px #006eff, 0 0 20px #006eff, 0 0 40px #006eff, 0 0 80px #006eff;
+}

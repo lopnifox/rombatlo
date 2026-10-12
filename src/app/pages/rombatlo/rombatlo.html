@@ -1,0 +1,47 @@
+<!-- /*
+* File: rombatlo.html
+* Author: Nagy Áron
+* Copyright: 2026, Nagy Áron
+* Group: Szoft II/N
+* Date: 2026-10-12
+* Github: https://github.com/lopnifox/
+* Licenc: MIT
+*/ -->
+
+<div class="card shadow">
+  <div class="card-header bg-primary text-white">
+    <h2 class="h4 mb-0">Rombusz területe</h2>
+  </div>
+
+  <div class="card-body">
+    <p>Adja meg a rombusz két átlójának hosszát!</p>
+
+    <div class="mb-3">
+      <label for="diagonalA" class="form-label">Első átló</label>
+      <input
+        type="number"
+        id="diagonalA"
+        class="form-control"
+        [(ngModel)]="diagonalA"
+      >
+    </div>
+
+    <div class="mb-3">
+      <label for="diagonalB" class="form-label">Második átló</label>
+      <input
+        type="number"
+        id="diagonalB"
+        class="form-control"
+        [(ngModel)]="diagonalB"
+      >
+    </div>
+
+    <button class="btn btn-primary" (click)="calculateArea()">
+      Számítás
+    </button>
+
+    <p class="alert alert-success mt-3 mb-0">
+      Terület: {{ area }}
+    </p>
+  </div>
+</div>

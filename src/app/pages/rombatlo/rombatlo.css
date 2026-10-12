@@ -1,0 +1,35 @@
+/*
+* File: rombatlo.css
+* Author: Nagy Áron
+* Copyright: 2026, Nagy Áron
+* Group: Szoft II/N
+* Date: 2026-10-12
+* Github: https://github.com/lopnifox/
+* Licenc: MIT
+*/
+
+h2 {
+  color: #284b8c;
+}
+
+input {
+  display: block;
+  margin: 5px 0 15px;
+  padding: 8px;
+}
+
+button {
+  background-color: #284b8c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #193563;
+}
+
+p {
+  font-size: 18px;
+}
